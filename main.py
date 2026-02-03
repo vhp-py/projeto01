@@ -7,9 +7,7 @@ def adicionar_aluno():
         nome = input('Digite o nome do aluno: ')
         idade = int(input('Digite sua idade: '))
         nota = float(input('Digite sua nota: '))
-        if nota > 10:
-            print('Nota inválida')
-            return adicionar_aluno(nota)
+        
         novo_aluno = {'nome':nome,
                'idade':idade,
                'nota':nota}
